@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Clima por ciudad</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <h1>Clima</h1>
+
+  <label>Selecciona una ciudad:</label>
+  <select id="ciudad">
+    <option value="Hermosillo">Hermosillo</option>
+    <option value="Ciudad de México">Ciudad de México</option>
+    <option value="Guadalajara">Guadalajara</option>
+    <option value="Monterrey">Monterrey</option>
+  </select>
+
+  <button onclick="obtenerClima()">Consultar</button>
+
+  <div id="resultado" style="margin-top:20px;">
+    Sin datos todavía.
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
